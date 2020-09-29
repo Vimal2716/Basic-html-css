@@ -1,0 +1,128 @@
+﻿*{
+	margin:0;
+	padding:0;
+	outline:0;
+}
+header{
+	width:100%;
+	height:60px;
+	background-color:aqua;
+}
+h1{
+	
+	position:absolute;
+	padding:3px;
+	float:left;
+	margin-left:2%;
+	margin-top:18px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:black;
+}
+ul{
+	width:auto;
+	float:right;
+	margin-top:8px;
+}
+li{
+	display:inline-block;
+	padding:15px 10px;
+}
+a{
+	text-align:center;
+	color:black;
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:large;
+}
+a:hover{
+	transition:0.3s;
+	border:1px #00FF00 solid;
+	border-color:#00FF00;
+	padding:3px;
+	background-color:#00FF00;
+	border-radius:6px;
+}
+img{
+	background-repeat:no-repeat;
+	max-width:100%;
+	height:auto;
+}
+
+
+.filter{
+	position:absolute;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	z-index:1;
+background: rgb(2,0,36);
+background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(44,153,200,1) 0%, rgba(0,212,255,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(44,153,200,1) 0%, rgba(0,212,255,1) 100%);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(44,153,200,1) 0%, rgba(0,212,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
+}
+
+table{
+	position:absolute;
+	z-index:2;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+	width:60%;
+	border-collapse:collapse;
+	border-spacing:0;
+	box-shadow: 0 2px 15px rgba(64,64,64,.7);
+	border-radius: 8px;
+	overflow:hidden;
+	
+}
+td, th{
+	padding: 15px 20px;
+	text-align:center;
+}
+
+th{
+	background-color:#CC3300;
+	color:Black;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:100;
+	text-transform:uppercase;
+}
+tr {
+	width:100%;
+	background-color:white;
+	font-family:Arial, Helvetica, sans-serif;	
+}
+tr:nth-child(even){
+	background-color:#CCCCCC;
+}
+
+.container{
+	transform: translate(-50%,-50%);
+	position:absolute;
+	z-index:1;
+	left:50%;
+	top:90%;
+	background-color:#CCCCFF;
+	border-collapse:collapse;
+	border-spacing:0;
+	box-shadow: 0 10px 15px rgba(64,64,64,.7);
+	width:60%;
+	border-radius:8px;
+}
+p{
+padding:5px;
+margin:5px;
+text-align:justify;
+font-family:Arial, Helvetica, sans-serif;
+font-size:medium;
+font-style:normal;
+}
+
+footer{
+	background-color:#6699FF;
+	text-align:center;
+	width:100%;
+	height:20px;
+}
